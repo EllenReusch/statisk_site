@@ -1,13 +1,28 @@
-<!-- Samme opbygning som index.html med header, main og footer -->
-<main>
-    <h2>Kategorier</h2>
-    <div class="category-list">
-        <!-- Her kan du gentage dette kort for hver kategori -->
-        <div class="category-card">
-            <h3>Kategorinavn</h3>
-            <p>Beskrivelse af kategori</p>
-            <a href="produktliste.html">Se produkter</a>
-        </div>
-        <!-- Gentag kortet for hver kategori -->
-    </div>
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Kategorier</title>
+</head>
+<body>
+  <header>
+    <h1>Kategorier</h1>
+      <nav>
+            <ul>
+                <li><a class="nav" href="index.html">Forside</a></li>
+                <li><a class="nav" href="produktliste.html">Produkter</a></li>
+            </ul>
+       
+      </nav>
+  </header>
+  <main>
+    <ul class="category-list">
+      <li><a class="category-list" href="produktliste.html?category=brand">Brands</a></li>
+      <li><a class="category-list" href="produktliste.html?category=season">Sæsoner</a></li>
+      <!-- Add other category links -->
+    </ul>
+  </main>
+</body>
+</html>

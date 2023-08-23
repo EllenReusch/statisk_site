@@ -1,14 +1,54 @@
-<!-- Samme opbygning som index.html med header, main og footer -->
-<main>
-    <h2>Produkter</h2>
-    <div class="product-list">
-        <!-- Her kan du gentage dette kort for hvert produkt -->
-        <div class="product-card">
-            <img src="billede-url" alt="Produktbillede">
-            <h3>Produktnavn</h3>
-            <p>Pris: 100 DKK</p>
-            <a href="produkt.html">Se detaljer</a>
-        </div>
-        <!-- Gentag kortet for hvert produkt -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Produktliste</title>
+</head>
+<body>
+  <header>
+    <h1>Produktliste</h1>
+      <nav>
+            <ul>
+                <li><a class="nav" href="kategori.html">Kategorier</a></li>
+                <li><a class="nav" href="produktliste.html">Produkter</a></li>
+            </ul>
+       
+      </nav>
+  </header>
+  <main class="main">
+    <div class="product-card">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="Produkt Billede">
+      <h2>Produkt Navn</h2>
+      <p>Pris: $XX.XX</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
     </div>
-</main>
+
+     <div class="product-card">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1577.webp" alt="Produkt Billede">
+      <h2>Produkt Navn</h2>
+      <p>Pris: $XX.XX</p>
+      <p class="discount">Rabat: $YY.YY</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
+    </div>
+
+     <div class="product-card">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1575.webp" alt="Produkt Billede">
+      <h2>Produkt Navn</h2>
+      <p>Pris: $XX.XX</p>
+      <p class="out-of-stock">Udsolgt</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
+    </div>
+
+     <div class="product-card">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1579.webp" alt="Produkt Billede">
+      <h2>Produkt Navn</h2>
+      <p>Pris: $XX.XX</p>
+      <p class="discount">Rabat: $YY.YY</p>
+      <p class="out-of-stock">Udsolgt</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
+    </div>
+  </main>
+</body>
+</html>
