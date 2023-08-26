@@ -16,6 +16,7 @@ const copy = template.cloneNode(true);
     //ændre indhold
 copy.querySelector("h2").textContent=product.productdisplayname;
 copy.querySelector("img").src=`https://kea-alt-del.dk/t7/images/webp/640/${product.id}.webp`;
+copy.querySelector("p").textContent=product.price;
 //if(product.soldout) {
     //produktet er udsolgt
     //copy.querySelector("article").classList.add("soldOut");
