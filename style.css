@@ -97,7 +97,7 @@ li a:hover:not(.active) {
   color: #ff8000;
 }
 
-.out-of-stock {
+.out-of-stock .soldout {
   color: #888;
 }
 

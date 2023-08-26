@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Produktliste</title>
+</head>
+<body>
+  <header>
+    <h1>Produktliste</h1>
+      <nav>
+            <ul>
+                <li><a class="nav" href="kategori.html">Kategorier</a></li>
+                <li><a class="nav" href="produktliste.html">Produkter</a></li>
+            </ul>
+       
+      </nav>
+  </header>
+  <main class="main">
+    <template id="product-cardTemplate">
+    <div class="product-card ">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="Produkt Billede">
+      <h2>Leggins</h2>
+      <p>Pris: 600kr</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
+    </div>
+    </template>
+
+     <div class="product-card onSale">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1577.webp" alt="Produkt Billede">
+      <h2>Kasket</h2>
+      <p>Pris: 300kr</p>
+      <p class="discount">Sat ned til: 150kr</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
+    </div>
+
+     <div class="product-card soldOut">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1575.webp" alt="Produkt Billede">
+      <h2>T-shirt</h2>
+      <p>Pris: 400kr</p>
+      <p class="out-of-stock">Udsolgt</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
+    </div>
+
+     <div class="product-card onSale soldOut">
+      <img src="https://kea-alt-del.dk/t7/images/webp/640/1579.webp" alt="Produkt Billede">
+      <h2>Trøje</h2>
+      <p>Pris: 900kr</p>
+      <p class="discount">Sat ned til: 400kr
+      </p>
+      <p class="out-of-stock">Udsolgt</p>
+      <a href="produkt.html" class="product-link">Se Produkt</a>
+      
+    </div>
+    -->
+  </main>
+  <script src="js/productlist.js"></script>
+</body>
+</html>
