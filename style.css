@@ -1,5 +1,10 @@
 /* Reset some default styles */
-body, h1, h2, h3, ul, li {
+body,
+h1,
+h2,
+h3,
+ul,
+li {
   margin: 0;
 }
 
@@ -21,8 +26,7 @@ header h1 {
   margin: 0;
 }
 
-
-/*navigation*/ 
+/*navigation*/
 
 nav ul {
   list-style-type: none;
@@ -36,54 +40,53 @@ nav ul li {
 }
 
 nav {
-    text-align: center;
-    background-color:#36784d;    
-    margin-top: 0px;
-    padding-top: 0cm;
-    margin-bottom: 1cm;
-    margin-left: -3%;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif; 
- 
+  text-align: center;
+  background-color: #36784d;
+  margin-top: 0px;
+  padding-top: 0cm;
+  margin-bottom: 1cm;
+  margin-left: -3%;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 li a {
-    color: #afb2b1;
-    text-align: center;
-    font-size: 20px;
-    padding: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-decoration: none;
-    justify-content: space-evenly;
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 1rem;
-    border-radius: 10px;
-    font-family: 'Raleway', sans-serif;
+  color: #afb2b1;
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  justify-content: space-evenly;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 li a:hover:not(.active) {
-    background-color:#afb2b1;
+  background-color: #afb2b1;
   color: #36784d;
-  font-family: 'Raleway', sans-serif;
-  }
+  font-family: "Raleway", sans-serif;
+}
 
-  a:hover:not(.active) {
-    background-color:#afb2b1;
+a:hover:not(.active) {
+  background-color: #afb2b1;
   color: #36784d;
-  font-family: 'Raleway', sans-serif;
-  }
+  font-family: "Raleway", sans-serif;
+}
 
 /* Styling for product cards */
 .product-card {
   background-color: rgb(234, 234, 234);
- border-radius: 15px;
+  border-radius: 15px;
   padding: 1rem;
   margin: 1rem;
 }
@@ -104,9 +107,12 @@ li a:hover:not(.active) {
 /*grid layout for produktliste*/
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates three equal-width columns */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Creates three equal-width columns */
   gap: 20px; /* Gap between grid items */
-  padding:1rem;
+  padding: 1rem;
 }
 
 .product-card {
@@ -130,8 +136,6 @@ main {
 .product-link:hover {
   background-color: #0056b3;
 }
-
-
 
 /* Styling for category list */
 .category-list {
@@ -159,7 +163,7 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-main {
+  main {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
@@ -172,6 +176,5 @@ main {
     margin: 0.5rem 0;
   }
 }
-
 
 /* Add more styles as needed */
